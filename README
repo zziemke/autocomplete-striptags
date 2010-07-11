@@ -1,0 +1,12 @@
+Bug:
+http://groups.google.com/group/liftweb/browse_frm/thread/960ced8f30a0ee2
+
+The mysql-db-connection is configured in "ItemSpecs.scala". You'll have to customize it so that it works in you're environment.
+
+Instructions:
+cd tmp
+git clone git://github.com/JoKie/bug.liftweb.custom.primary.key.git
+cd bug.liftweb.custom.primary.key
+sbt
+update
+test
